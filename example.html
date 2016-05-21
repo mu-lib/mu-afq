@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<script>
+window.afq = window.afq || function () { (afq.q = afq.q || []).push(arguments) };
+</script>
+
+<script>
+afq("log", 1, 2, 3);
+afq("error", 1, 2, 3);
+</script>
+
+<script>
+afq.error = console.error.bind(console);
+afq.log = console.log.bind(console);
+</script>
+<script src="afq.js"></script>
+</head>
+<body>
+</body>
+</html>
