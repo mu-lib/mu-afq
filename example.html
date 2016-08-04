@@ -11,8 +11,8 @@ afq("error", 1, 2, 3);
 </script>
 
 <script>
-afq.error = console.error.bind(console);
-afq.log = console.log.bind(console);
+afq("provide", "log", console.log.bind(console));
+afq("provide", "error", console.error.bind(console));
 </script>
 <script src="afq.js"></script>
 </head>
