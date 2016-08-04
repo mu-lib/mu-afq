@@ -5,7 +5,7 @@
     ? w[afq]
     : w[w[x] = afq] = (function(_q) {
       function _afq(n) {
-        _afq[n] ? _afq[n].apply(this, s.call(arguments, 1)) : (_q[n] = _q[n] || []).push(arguments);
+        _afq[n] ? _afq[n].apply(this, s.call(arguments, 1)) : (_q[n] = _q[n] || []).push(s.call(arguments, 1));
       }
 
       _afq.provide = function(n, f) {
