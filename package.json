@@ -1,0 +1,22 @@
+{
+  "name": "mu-afq",
+  "version": "1.0.0",
+  "description": "Asynchronous Function Queue",
+  "main": "afq.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mu-lib/mu-afq.git"
+  },
+  "author": "Mikael Karon <mikael@karon.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mu-lib/mu-afq/issues"
+  },
+  "homepage": "https://github.com/mu-lib/mu-afq#readme",
+  "devDependencies": {
+    "standard-version": "^2.4.0"
+  }
+}

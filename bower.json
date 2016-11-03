@@ -1,0 +1,15 @@
+{
+  "name": "mu-afq",
+  "authors": [
+    "Mikael Karon <mikael@karon.se>"
+  ],
+  "description": "Asynchronous Function Queue",
+  "main": "afq.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
